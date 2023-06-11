@@ -1,0 +1,80 @@
+
+
+.movieForm{
+    color:white;
+    margin:0px auto;
+    width:500px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap:15px;
+    padding:20px;
+}
+@media  screen and (max-width:600px) {
+   .movieForm{
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+   }
+    
+}
+.subForm{
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+    width: 250px;
+}
+
+input{
+    padding:7px;
+    font-size: 16px;
+}
+
+select{
+    padding: 7px;
+    font-size: 16px;
+}
+
+textarea{
+    padding:7px;
+    font-size: 16px;
+}
+
+
+.button{
+    border:none;
+    border-bottom: 5px solid rgb(208, 35, 35) ;
+    cursor: pointer;
+    padding:7px;
+    font-weight: 1000;
+    width: 200px;
+    margin:10px auto;
+}
+
+.headingg{
+    text-align: center;
+    color:white;
+}
+
+.moviedatabase{
+    margin-right:20px;
+    margin-bottom:20px;
+    position: fixed;
+    padding: 10px;
+    bottom:0;
+    right:0;
+    font-size: 16px;
+    text-align: center;
+    width:max-content;
+    color:black;
+    background-color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 5px solid rgb(208, 35, 35) ;
+}
+
+.addMovie{
+    margin-bottom: 150px;
+}

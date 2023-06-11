@@ -1,0 +1,20 @@
+.addButton{
+    margin-right:20px;
+    margin-bottom:20px;
+    position: fixed;
+    bottom:0;
+    right:0;
+    font-size: 40px;
+    text-align: center;
+    height:50px;
+    width:50px;
+    border-radius: 50px;
+    color:black;
+    background-color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.MovieList{
+    margin-bottom: 150px;
+}

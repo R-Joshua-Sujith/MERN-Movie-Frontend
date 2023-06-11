@@ -1,0 +1,60 @@
+.skeleton{
+    animation:skeleton-loading 1s linear infinite alternate;
+}
+
+@keyframes skeleton-loading  {
+    0%{
+        background-color: hsl(200,20%,70%);
+    }
+    100%{
+        background-color: hsl(200,20%,95%);
+    }
+}
+
+.Movies{
+    display: flex;
+    gap:25px;
+    overflow-x:scroll;
+    overflow-y: hidden;
+    cursor: pointer;
+}
+
+.Movies::-webkit-scrollbar{
+    height:15px;
+}
+.Movies::-webkit-scrollbar-track{
+  
+    background: white;
+    border-radius:5px ;
+    
+}
+.Movies::-webkit-scrollbar-thumb{
+    background: rgb(208, 35, 35);
+  border-radius: 5px;
+}
+
+
+
+.Movies-Section{
+    color:white;
+    margin:0px 10px;
+    padding: 20px;
+    padding-left: 25px;
+    border-radius: 20px;
+}
+
+.title{
+    text-align: center;
+    color:white;
+    font-size: 35px;
+    margin:30px 0px 0px 30px ;
+    padding: 10px;
+    width:max-content;
+    border-radius: 20px;
+}
+
+.images{
+    height:200px;
+    width:150px;
+}
+

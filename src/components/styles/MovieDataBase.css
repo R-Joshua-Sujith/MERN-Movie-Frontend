@@ -1,0 +1,141 @@
+.table{
+    display: grid;
+    grid-template-columns: 250px 70px 100px 70px 70px ;
+    grid-template-rows: 50px;
+    grid-row-gap: 20px;
+    column-gap: 5px;
+}
+@media  screen and (max-width:600px) {
+    .table{
+        display: grid;
+        grid-template-columns: 100px 35px 50px 45px 55px ;
+        grid-template-rows: 50px;
+        grid-row-gap: 20px;
+        column-gap: 5px;
+    }
+ }
+.heading{
+    display: grid;
+    grid-template-columns:250px 70px 100px 70px 70px;
+    grid-template-rows: auto;
+    column-gap: 5px;
+    font-size: 18px;
+}
+@media  screen and (max-width:600px) {
+    .heading{
+        display: grid;
+        grid-template-columns: 100px 35px 50px 45px 55px ;
+        grid-template-rows: auto;
+        column-gap: 5px;
+        grid-template-rows: 20px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+ }
+
+.container{
+    margin:0px auto;
+    color:white;
+}
+
+.table>input{
+    border: none;
+    border-bottom:2px solid red ;
+    font-size: 18px;
+}
+@media  screen and (max-width:600px) {
+    .table>input{
+        font-size: 12px;
+    }
+ }
+.movieForm-hide{
+    color:white;
+    margin:0px auto;
+    width:500px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap:15px;
+    padding:20px;
+    display:none;
+}
+.movieForm{
+    color:white;
+    margin:0px auto;
+    width:500px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap:15px;
+    padding:20px;
+}
+
+
+@media  screen and (max-width:600px) {
+   .movieForm{
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+   }
+    
+}
+.subForm{
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+    width: 250px;
+}
+
+input{
+    padding:7px;
+    font-size: 18px;
+}
+
+select{
+    padding: 7px;
+    font-size: 16px;
+}
+
+textarea{
+    padding:7px;
+    font-size: 16px;
+}
+
+
+.button-hide{
+    display: none;
+    border:none;
+    border-bottom: 5px solid rgb(208, 35, 35) ;
+    cursor: pointer;
+    padding:7px;
+    font-weight: 1000;
+    width: 200px;
+    margin:10px auto;
+    margin-bottom:50px;
+}
+.button{
+    border:none;
+    border-bottom: 5px solid rgb(208, 35, 35) ;
+    cursor: pointer;
+    padding:7px;
+    font-weight: 1000;
+    width: 200px;
+    margin:10px auto;
+    margin-bottom:50px;
+}
+
+.headingg{
+    text-align: center;
+    color:white;
+}
+
+.heading-hide{
+    display: none;
+}
+
+.grid{
+    width:max-content;
+    margin:0px auto;
+}

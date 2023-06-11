@@ -1,0 +1,32 @@
+.contact{
+    color:white;
+    margin:30px auto;
+    width:280px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    padding:20px;
+}
+
+input{
+    padding:7px;
+    font-size: 16px;
+}
+textarea{
+    padding:7px;
+    font-size: 16px;
+}
+button{
+    border:none;
+    border-bottom: 5px solid rgb(208, 35, 35) ;
+    cursor: pointer;
+    padding:7px;
+    font-weight: bold;
+
+}
+
+.headingg{
+    text-align: center;
+    color:white;
+}
+

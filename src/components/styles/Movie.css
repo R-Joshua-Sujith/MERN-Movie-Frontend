@@ -1,0 +1,71 @@
+.skeleton{
+    animation:skeleton-loading 1s linear infinite alternate;
+}
+
+@keyframes skeleton-loading  {
+    0%{
+        background-color: hsl(200,20%,70%);
+    }
+    100%{
+        background-color: hsl(200,20%,95%);
+    }
+}
+
+
+
+h3{
+    text-align: center;
+    color: white;
+    margin-top:50px;
+}
+
+
+.movie-section{
+    color:white;
+    padding:20px;
+    width:700px;
+    margin: 20px auto;
+    display: flex;
+    gap:30px;
+    justify-content: center;
+    flex-direction:row;
+    align-items: center;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+}
+
+@media  screen and (max-width:650px) {
+   .movie-section{
+    width:280px;
+   }
+}
+
+
+.movie-details{
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    gap:0px;
+    align-items: center;
+}
+
+.button{
+    background-color: white;
+    color:black;
+    padding:8px;
+    border: none;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+.container{
+    margin-top:20px;
+}
+
+.desc{
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+

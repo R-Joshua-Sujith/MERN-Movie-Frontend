@@ -1,0 +1,64 @@
+.carousal{
+    margin:0px auto;
+    gap:10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arrows{
+    height:15px;
+    width:15px;
+    background-color:  rgb(208, 35, 35);
+    color:white;
+    padding:10px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;  
+}
+
+.head{
+    text-align: center;
+    color:white;
+    font-size: 35px;
+    margin:0px auto;
+    margin-bottom:5px;
+    padding: 10px;
+    width:max-content;
+    border-radius: 20px;
+}
+
+.container{
+    padding:20px;
+    padding-bottom: 40px;
+    margin:10px auto 0px auto;
+    border-radius: 10px;
+    width:85%;
+    margin-bottom:60px;
+}
+
+.image{
+    width: 700px;
+    height: 350px;
+}
+
+
+@media  screen and (max-width:900px) {
+   .image{
+    height: 300px;
+    width:400px;
+    object-fit: contain;
+   }
+}
+
+@media  screen and (max-width:600px) {
+    .image{
+     height: 300px;
+     width:220px;
+     object-fit: contain;
+    }
+ }
+
+
+
+
